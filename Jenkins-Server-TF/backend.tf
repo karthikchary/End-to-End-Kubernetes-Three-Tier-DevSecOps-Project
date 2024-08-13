@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket         = "my-ews-baket-karthik"
     region         = "us-east-1"
-    key            = "Lock-Files-karthik/Jenkins-Server-TF/terraform.tfstate"
+    key            = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
     dynamodb_table = "Lock-Files-karthik"
     encrypt        = true
   }
